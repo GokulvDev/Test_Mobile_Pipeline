@@ -1,0 +1,10 @@
+name: YAML Practice
+
+on: workflow_dispatch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print message
+        run: echo "YAML is easy"
